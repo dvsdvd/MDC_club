@@ -1,0 +1,574 @@
+.trending {
+    position: relative;
+  
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .trending__discover {
+    position: absolute;
+    top: 44%;
+    left: 44%;
+    z-index: 10;
+  
+    width: 160px;
+    height: 160px;
+  
+    border-radius: 100%;
+    background-color: #00ABD0;
+    cursor: pointer;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #DiamonCLB_info1 {
+    position: relative;
+    cursor: pointer;
+    font-family: monospace;
+  }
+
+  #TextInfo1{
+    position: absolute;
+    left: 50%;
+    top: -700%;
+    transform: translateX(-50%);
+    background-color: #ec7284;
+    color: white;
+    width: 240px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    visibility: hidden;
+    opacity: 0;
+    transition:opacity 0.5s ease ;
+  }
+  #TextInfo1::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: 15px solid ;
+    border-color: #ec7284 #0000 #0000 #0000;
+  }
+  #DiamonCLB_info1:hover #TextInfo1{
+    top: -790%;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  #DiamonCLB_info5 {
+    position: relative;
+    cursor: pointer;
+    font-family: monospace;
+  }
+
+  #TextInfo5{
+    position: absolute;
+    left: 50%;
+    top: -250%;
+    transform: translateX(-50%);
+    background-color: #ec7284;
+    color: white;
+    width: 240px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    visibility: hidden;
+    opacity: 0;
+    transition:opacity 0.5s ease ;
+  }
+  #TextInfo5::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: 15px solid ;
+    border-color: #ec7284 #0000 #0000 #0000;
+  }
+  #DiamonCLB_info5:hover #TextInfo5{
+    top: -315%;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  #DiamonCLB_info5:hover p{
+    color: #ec7284 !important;
+    font-weight: 800;
+  }
+  #DiamonCLB_info1:hover p{
+    color: #ec7284 !important;
+    font-weight: 800;
+  }
+
+
+  #DiamonCLB_info2 {
+    position: relative;
+    cursor: pointer;
+    font-family: monospace;
+  }
+  #TextInfo2{
+    position: absolute;
+    left: 50%;
+    top: -270%;
+    transform: translateX(-50%);
+    background-color: #00ABD0;
+    color: white;
+    width: 240px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    visibility: hidden;
+    opacity: 0;
+    transition:opacity 0.5s ease ;
+  }
+  #TextInfo2::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: 15px solid ;
+    border-color: #00ABD0 #0000 #0000 #0000;
+  }
+  #DiamonCLB_info2:hover #TextInfo2{
+    top: -320%;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  #DiamonCLB_info6 {
+    position: relative;
+    cursor: pointer;
+    font-family: monospace;
+  }
+  #TextInfo6{
+    position: absolute;
+    left: 50%;
+    top: -420%;
+    transform: translateX(-50%);
+    background-color: #00ABD0;
+    color: white;
+    width: 240px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    visibility: hidden;
+    opacity: 0;
+    transition:opacity 0.5s ease ;
+  }
+  #TextInfo6::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: 15px solid ;
+    border-color: #00ABD0 #0000 #0000 #0000;
+  }
+  #DiamonCLB_info6:hover #TextInfo6{
+    top: -478%;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  #DiamonCLB_info6:hover p{
+    color: #00ABD0 !important;
+    font-weight: 800;
+  }
+  #DiamonCLB_info2:hover p{
+    color: #00ABD0 !important;
+    font-weight: 800;
+  }
+
+
+  #DiamonCLB_info3 {
+    position: relative;
+    cursor: pointer;
+    font-family: monospace;
+  }
+  #TextInfo3{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%);
+    background-color: #f5a328;
+    color: white;
+    width: 240px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 5;
+    transition:opacity 0.5s ease ;
+  }
+  #TextInfo3::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -30%;
+    transform: translateX(-50%);
+    border: 15px solid;
+    border-color: #0000 #0000 #f5a328 #0000;
+  }
+  #DiamonCLB_info3:hover #TextInfo3{
+    top: 170%;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  #DiamonCLB_info7 {
+    position: relative;
+    cursor: pointer;
+    font-family: monospace;
+  }
+  #TextInfo7{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%);
+    background-color: #f5a328;
+    color: white;
+    width: 240px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 5;
+    transition:opacity 0.5s ease ;
+  }
+  #TextInfo7::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -23.5%;
+    transform: translateX(-50%);
+    border: 15px solid;
+    border-color: #0000 #0000 #f5a328 #0000;
+  }
+  #DiamonCLB_info7:hover #TextInfo7{
+    top: 145%;
+    visibility: visible;
+    opacity: 1;
+  }
+  #DiamonCLB_info7:hover p{
+    color: #f5a328 !important;
+    font-weight: 800;
+  }
+  #DiamonCLB_info3:hover p{
+    color: #f5a328 !important;
+    font-weight: 800;
+  }
+
+
+
+  #DiamonCLB_info4 {
+    position: relative;
+    cursor: pointer;
+    font-family: monospace;
+  }
+  #TextInfo4{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%);
+    background-color: #b6d331;
+    color: white;
+    width: 240px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 5;
+    transition:opacity 0.5s ease ;
+  }
+  #TextInfo4::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -27.5%;
+    transform: translateX(-50%);
+    border: 15px solid;
+    border-color: #0000 #0000 #b6d331 #0000;
+  }
+  #DiamonCLB_info4:hover #TextInfo4{
+    top: 170%;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  #DiamonCLB_info8 {
+    position: relative;
+    cursor: pointer;
+    font-family: monospace;
+  }
+  #TextInfo8{
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%);
+    background-color: #b6d331;
+    color: white;
+    width: 240px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 5;
+    transition:opacity 0.5s ease ;
+  }
+  #TextInfo8::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -30%;
+    transform: translateX(-50%);
+    border: 15px solid;
+    border-color: #0000 #0000 #b6d331 #0000;
+  }
+  #DiamonCLB_info8:hover #TextInfo8{
+    top: 165%;
+    visibility: visible;
+    opacity: 1;
+  }
+  #DiamonCLB_info8:hover p{
+    color: #b6d331 !important;
+    font-weight: 800;
+  }
+  #DiamonCLB_info4:hover p{
+    color: #b6d331 !important;
+    font-weight: 800;
+  }
+  
+  
+  .trending__discover p {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+  
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+  }
+  .Diamond_divider-img{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 50px;
+  }
+  .Diamond_divider-img img{
+    height: 60%;
+    width: 60%;
+  }
+  .trending-sushi,
+  .trending-drinks {
+    width: 100%;
+    min-height: 640px;
+  
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .trending__content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+    padding: 32px 64px;
+  }
+  
+  .trending__list {
+    list-style: none;
+  
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .trending__list li {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 12px;
+  
+    min-width: 210px;
+  }
+  
+  .trending__icon {
+    width: 65px;
+    height: 65px;
+  
+    border-radius: 100%;
+
+  }
+  
+  .trending__icon img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+  }
+  
+  .trending__list p {
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+  
+    color: var(--secondary-color);
+  }
+  
+  .trending__image {
+    flex: 1;
+  
+    position: relative;
+    padding: 32px 64px;
+    background-color: var(--color-white);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  
+  .trending-sushi .trending__image {
+    background-image: url("../../assets/japanese_sushi.png");
+  }
+  
+  .trending-drink .trending__image {
+    background-image: url("../../assets/japanese_drinks.png");
+  }
+  
+  .trending__image img {
+    width: 254px;
+    height: 260px;
+    object-fit: contain;
+  }
+
+  .animated-text{
+    font-size: 21px;
+    font-weight: bold;
+    font-family: var(--plus-jakarta-sans);
+    text-transform: uppercase;
+    color: #000000;
+    min-width: 28px;
+}
+.animated-text2{
+  font-size: 21px;
+    font-weight: bold;
+    font-family: var(--plus-jakarta-sans);
+    text-transform: uppercase;
+    color: #000000;
+    min-width: 28px;
+}
+.animated-text2 span{
+  position: relative;
+}
+.animated-text span{
+    position: relative;
+}
+
+.animated-text span::before{
+    content: "Dance";
+    color: #ff4081;
+    animation: words 20s infinite;
+}
+.animated-text2 span::before{
+  content: "Dance";
+  color: #00ABD0;
+  animation: words 20s infinite;
+}
+
+.animated-text2 span::after{
+  content: "";
+  position: absolute;
+  width: calc(100% + 1px);
+  height: 100%;
+  background-color: #ffffff;
+  border-left: 2px solid #00ABD0;
+  right: -0.5px;
+  animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 1px);
+    height: 100%;
+    background-color: #ffffff;
+    border-left: 2px solid #ff4081;
+    right: -0.5px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: "Dance";
+    }
+    21%,40%{
+        content: "Music";
+    }
+    41%,60%{
+        content: "MDCs";
+    }
+    61%,80%{
+        content: "Maths";
+    }
+    81%,100%{
+        content: "sport";
+    }
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 1px);
+    }
+}
+  /* Arrows */
+  .trending__arrow {
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .trending__arrow img {
+    object-fit: contain;
+  }
+  
+  .trending__arrow-left {
+    left: -2.5px;
+    top: 12%;
+  }
+  
+  .trending__arrow-left img,
+  .trending__arrow-top img {
+    width: auto;
+    height: 100%;
+  }
+  
+  .trending__arrow-top {
+    top: -10.5px;
+    left: 12%;
+  }
+  
+  .trending__arrow-bottom {
+    bottom: -6.5px;
+    right: 12%;
+  }
+  
+  .trending__arrow-bottom img,
+  .trending__arrow-right img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .trending__arrow-right {
+    right: -2.5px;
+    bottom: 12%;
+  }

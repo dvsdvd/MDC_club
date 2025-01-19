@@ -1,0 +1,108 @@
+footer {
+    margin-top: 120px;
+    position: relative;
+    width: 100%;
+    background:#bb2649;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+  }
+  footer .social_icon,footer .menuCLB{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+  }
+  footer .social_icon li, footer .menuCLB li{
+    list-style: none;
+  }
+  footer .social_icon li a{
+    font-size: 2.5em;
+    color: #fff0de;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.4s;
+  }
+  footer .social_icon li a:hover{
+   transform: translateY(-10px);
+  }
+  footer .menuCLB li a {
+    font-size: 1.2em;
+    color: #fff0de;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.4s;
+    opacity: 0.75;
+    cursor: pointer;
+  }
+  footer .menuCLB li a:hover{
+    opacity: 1;
+  }
+  footer p{
+    color: #fff0de;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+  
+  }
+  
+  footer .wave
+  {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background:url('RedLine.png');
+    background-size: 1000px 100px;
+  }
+  
+  footer .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: aniamteWave 4s linear infinite;
+  }
+  footer .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: aniamteWave_02 4s linear infinite;
+  }
+  
+  footer .wave#wave3 {
+    z-index: 997;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: aniamteWave 5s linear infinite;
+  }
+  footer .wave#wave4 {
+    z-index: 998;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: aniamteWave_02 4.5s linear infinite;
+  }
+  
+  @keyframes aniamteWave {
+    0%{
+      background-position-x: 1000px;
+    }
+    100%{
+      background-position-x: 0px
+    }
+  }
+  
+  @keyframes aniamteWave_02 {
+    0%{
+      background-position-x: 0px;
+    }
+    100%{
+      background-position-x: 1000px
+    }
+  }
